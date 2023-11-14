@@ -1,0 +1,16 @@
+{
+  "name": "my-next-apip",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.2",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
